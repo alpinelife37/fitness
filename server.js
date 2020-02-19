@@ -13,11 +13,16 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+mongoose.connect("mongodb://localhost/workout", {
+  useNewUrlParser: true,
+  useFindAndModify: false
+});
+
 ///routes
 
-app.use(require("./routes/api"));
-//app.use(require("./routes/view"));
+app.use(require("./routes/api.js"));
+app.use(require("./routes/view.js"));
 
 app.listen(PORT, () => {
-  console.log("You are connected on port 3000");
+  console.log("App listening on : http://localhost:" + PORT);
 });
