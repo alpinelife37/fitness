@@ -6,7 +6,7 @@
 
 Node based app that starts connects to a Mongo database and allows the user to create exercises, and continue workouts.
 
-![Example profile](./public/assets/example.png)
+![Example profile](./public/assets/images/example.png)
 ![Deployed Link](https://aqueous-dusk-93036.herokuapp.com/)
 
 ### INSTALLATION INSTRUCTIONS
