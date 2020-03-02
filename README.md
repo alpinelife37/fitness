@@ -34,6 +34,7 @@ Node based app that starts connects to a Mongo database and allows the user to c
 - [Node](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
 - [Robo 3T](https://robomongo.org/)
+- [Studio 3T](https://studio3t.com/)
 - [Heroku](https://www.heroku.com/)
 - [Mlab](https://mlab.com//)
 
@@ -41,7 +42,7 @@ Node based app that starts connects to a Mongo database and allows the user to c
 
 - [Mongo](https://www.npmjs.com/package/mongo)
 - [Express](https://www.npmjs.com/package/express)
-- [Morgan]https://www.npmjs.com/package/morgan)
+- [Morgan](https://www.npmjs.com/package/morgan)
 
 ### AUTHOR
 
