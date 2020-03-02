@@ -7,7 +7,7 @@
 Node based app that starts connects to a Mongo database and allows the user to create exercises, and continue workouts.
 
 ![Example profile](./public/assets/images/example.png)
-[Deployed Link](https://aqueous-dusk-93036.herokuapp.com/)
+[Deployed Link](https://quiet-springs-60038.herokuapp.com/?id=5e5d462779635b4d588ca1b8)
 
 ### INSTALLATION INSTRUCTIONS
 
@@ -21,7 +21,7 @@ Node based app that starts connects to a Mongo database and allows the user to c
 
    - [Deployed Setup]
 
-6. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
+6. Click on the following Heroku link to see the deployed version. (https://quiet-springs-60038.herokuapp.com/?id=5e5d462779635b4d588ca1b8)
 
 ### BUILT WITH
 
