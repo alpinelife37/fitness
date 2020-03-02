@@ -13,14 +13,13 @@ router.post("/api/workouts", (req, res) => {
     });
 });
 
-router.put("/api/workouts/:id", ({ body, params }, res) => {
-  Workout.findByIdAndUpdate(
-    params.id,
-    { $push: { exercises: body } },
-    { new: true, runValidators: true }
-  )
+router.put("/api/workouts/:id", (req, res) => {
+  const id = req.params.id;
+  const body = req.body;
+  Workout.findByIdAndUpdate({ _id: id }, { $push: { exercises: body } })
     .then(workoutResults => {
       res.json(workoutResults);
+      console.log(workoutResults);
     })
     .catch(err => {
       res.json(err);
